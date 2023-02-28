@@ -1,0 +1,136 @@
+body {
+  margin: auto;
+  padding: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ 
+}
+
+.cabecalho{
+  background-color: #95ba95;
+  height: 230px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  
+}
+
+#tituloImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.cabecalho h1{
+  margin: 0;
+}
+
+.cabecalho img {
+  width: 150px;
+  height: 150px;
+}
+
+.menu{
+
+  margin-top: -52px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  background-color: #228B22;
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
+.menu a:hover{
+  background-color: #60ba60;
+}
+
+.menu li{
+  
+  list-style: none;
+  display: inline;
+  
+  
+}
+
+.conteudoPagPrincipal{
+  margin-left: 25%;
+  width: 800px;
+  text-align: justify;
+}
+
+.conteudoPagPrincipal h1, h2{
+  text-align: center;
+}
+
+.conteudoPagPrincipal img{
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+
+
+.rodape{
+  font-weight: bolder;
+  color: white;
+  background-color: #95ba95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.corpo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+  margin-left: 2%;
+  
+  
+}
+
+.corpo form{
+  margin: 2%;
+}
+
+.radios{
+
+  margin-left: 10%;
+
+}
+
+
+#botao{
+  background-color: #228B22;
+  color: white;
+  border: none;
+  padding: 7px;
+  margin-top: 2%;
+  width: 100px;
+}
+
+input:hover{
+   background-color: #60ba60;
+   border: white;
+
+}
+
+#botao:hover{
+  background-color: #60ba60;
+
+}
