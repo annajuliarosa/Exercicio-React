@@ -1,3 +1,4 @@
+
 body {
   margin: auto;
   padding: auto;
@@ -29,6 +30,7 @@ body {
 
 .cabecalho h1{
   margin: 0;
+  text-shadow: 2px 1px 3px #2e6aaa;
 }
 
 .cabecalho img {
@@ -38,7 +40,7 @@ body {
 
 .menu{
 
-  margin-top: -52px;
+  margin-top: -58px;
   
   display: flex;
   align-items: center;
@@ -74,6 +76,8 @@ body {
 
 .conteudoPagPrincipal h1, h2{
   text-align: center;
+  
+  text-shadow: 2px 1px 3px #2e6aaa;
 }
 
 .conteudoPagPrincipal img{
@@ -108,9 +112,28 @@ body {
   margin: 2%;
 }
 
-.radios{
+.botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  margin-left: 10%;
+.telefone{
+  height: 49px;
+  border-radius: 3px;
+  border: 0.5px solid #bfb2b2;
+  font-size: 12pt;
+  padding: 10px;
+}
+
+.telefone:hover{
+  border: 0.5px solid black;
+}
+
+.telefone::placeholder{
+  color: #726d6d;
+  padding: 10px;
+  font-size: 12pt;
 
 }
 
@@ -122,15 +145,49 @@ body {
   padding: 7px;
   margin-top: 2%;
   width: 100px;
+  margin-left: 10px;
 }
 
-input:hover{
-   background-color: #60ba60;
-   border: white;
+#botao2{
+  
+  color: #228B22;
+  border: 1px solid #228B22;
+  padding: 7px;
+  margin-top: 2%;
+  width: 100px;
+  margin-left: 10px;
+}
+
+
+.textos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.radios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagEnv{
+  height: 600px;
+  text-align: center;
+  padding: 2%;
 
 }
 
-#botao:hover{
-  background-color: #60ba60;
+.pagEnv h1{
+  text-shadow: 2px 1px 3px #2e6aaa;
+
+}
+.pagEnv img{
+  margin: 3%;
+  height: 350px;
+  width: 400px;
+  border-radius: 50%;
+  border: 4px solid rgba(0,0,0,0.2);
 
 }

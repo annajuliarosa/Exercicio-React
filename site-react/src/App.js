@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './index.css';
-
 import { PagPrincipal } from './components/PagPrincipal';
 import { ConteudoPagPesquisa } from './components/ConteudoPagPesquisa';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import {PagEnviado} from './components/PagEnviado';
 
 
 
@@ -19,12 +18,16 @@ export const App=()=> {
                       </>} />
 
           <Route exact path='/ConteudoPagPesquisa' element={<>
-                      <ConteudoPagPesquisa/>                      
-         
-          </>
+                      <ConteudoPagPesquisa /> </> } />
 
-            } />
-        </Routes>
+
+            <Route exact path='/PagEnviado' element={ <>
+                      <PagEnviado  /> </> } />                       
+         
+         </Routes>
+          
+
+      
       </BrowserRouter>
     
     </>
